@@ -1,0 +1,7 @@
+import React, { useState } from "react";
+
+const CardData = () => {
+  return <div>CardData</div>;
+};
+
+export default CardData;
