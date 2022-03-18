@@ -50,3 +50,7 @@ body {
   width: 250px;
   margin: 0 2em 0 2em;
 }
+
+.card__p {
+  text-align: center;
+}
