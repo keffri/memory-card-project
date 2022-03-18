@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Scores = () => {
-  const [currentScore, setCurrentScore] = useState(0);
-  const [highScore, setHighScore] = useState(0);
-
+const Scores = (props) => {
   return (
     <div className="scores">
-      <p className="scores__currentScore">{currentScore}</p>
-      <p className="scores__highScore">{highScore}</p>
+      <p className="scores__currentScore">
+        Current Score: {props.currentScore}
+      </p>
+      <p className="scores__highScore">High Score: {props.highScore}</p>
     </div>
   );
 };

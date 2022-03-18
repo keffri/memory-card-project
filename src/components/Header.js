@@ -1,11 +1,11 @@
 import React from "react";
 import Scores from "./Scores";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className="header">
-      <h1 className="header__title">Header</h1>
-      <Scores />
+      <h1 className="header__title">Memory Card Project</h1>
+      <Scores currentScore={props.currentScore} highScore={props.highScore} />
     </header>
   );
 };
