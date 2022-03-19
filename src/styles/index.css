@@ -41,6 +41,7 @@ body {
 
 .cardDisplay {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -48,7 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 250px;
-  margin: 0 2em 0 2em;
+  margin: 0 2em 2em 2em;
 }
 
 .card__p {
